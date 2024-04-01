@@ -19,7 +19,7 @@ export default {
       // => @media (min-width: 1280px) { ... }
     },
     backgroundImage: {
-      hero: "url('/public/image/bg-header.jpg')"
+      hero: "url('./public/assets/bg-header.jpg')"
     },
     colors: {
       transparent: 'transparent',
@@ -35,5 +35,6 @@ export default {
     },
     extend: {}
   },
-  plugins: []
+  // eslint-disable-next-line no-undef
+  plugins: [require('daisyui')]
 }
