@@ -24,7 +24,7 @@ export default {
       <div class="flex m-0 drop-shadow-[1px_4px_43.4px_rgba(0,0,0,0.50)]">
         <div class="relative flex items-center text-light-secondary focus-within:text-mediumBlue">
           <MagnifyingGlassIcon
-            class="absolute h-5 w-5 xxsm:mt-2 xxsm:ml-3 xxsm:text-[26px] mt-5 ml-5 text-[28px]"
+            class="absolute h-5 w-5 xxsm:mt-2 xxsm:ml-3 xxsm:text-[26px] mt-5 ml-5 text-[80px]"
             name="search"
           ></MagnifyingGlassIcon>
           <input
