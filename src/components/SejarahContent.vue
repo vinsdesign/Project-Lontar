@@ -25,7 +25,7 @@
         <a href="#" class="text-orange-pastel">Selengkapnya</a>.
       </p>
       <img
-        src="../../public/assets/Tulis_Lontar.jpg"
+        src="./assets/Tulis_Lontar.jpg"
         class="xxsm:w-[280px] xsm:w-[450px] sm:w-[500px] lg:w-[500px] md:w-[600px] xl:w-[400px] 2xl:w-[500px] xsm:order-1 xxsm:order-1 sm:order-1 md:order-1 lg:order-2"
         alt="Tulis-lontar"
       />

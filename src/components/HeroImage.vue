@@ -18,8 +18,10 @@
         v-for="(image, index) in images"
         :key="index"
         :href="'#item' + (index + 1)"
-        class="py-2 px-2 bg-white rounded-full border-gray-400"
-        :class="{ 'bg-mediumBlue': index === currentIndex }"
+        class="py-2 px-2 bg-mediumBlue rounded-full border-gray-400"
+        :class="{
+          'bg-white': index == currentIndex
+        }"
         @click="goToImage(index)"
       ></a>
     </div>
@@ -81,7 +83,8 @@ export default {
       handleImageClick,
       goToImage,
       startAutoChange,
-      stopAutoChange
+      stopAutoChange,
+      currentIndex
     }
   }
 }
