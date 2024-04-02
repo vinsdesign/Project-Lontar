@@ -1,6 +1,8 @@
 <script setup>
 import LogoIcon from '@/components/icons/logo.vue'
 import LogoInstiki from '@/components/icons/LogoInstiki.vue'
+import { MapPinIcon } from '@heroicons/vue/24/outline'
+import { EnvelopeIcon } from '@heroicons/vue/24/outline'
 </script>
 <template>
   <footer class="w-full bg-darkBlue xxsm:px-4 xsm:px-8 sm:px-12 px-16 py-8 mt-16 text-white">
@@ -22,11 +24,11 @@ import LogoInstiki from '@/components/icons/LogoInstiki.vue'
           Kontak
         </h1>
         <div class="flex items-center gap-2 mt-1 hover:text-orangePastel duration-500">
-          <ion-icon class="text-2xl" name="mail-outline"> </ion-icon>
+          <EnvelopeIcon class="h-6 w-6" name="mail-outline"> </EnvelopeIcon>
           <a href="#"><p class="font-medium xxsm::text-base lg:text-lg">Lontarbali@email.com</p></a>
         </div>
-        <div class="flex mt-4 gap-2 hover:text-orangePastel duration-500">
-          <ion-icon class="text-2xl" name="location-outline"></ion-icon>
+        <div class="flex items-start mt-4 gap-2 hover:text-orangePastel duration-500">
+          <MapPinIcon class="h-6 w-6" name="location-outline"></MapPinIcon>
           <a href="#"
             ><p class="xxsm::text-base lg:text-lg font-medium xxsm:w-[260px] lg:w-[400px]">
               Jl. Veteran, Paket Agung, Kec. Buleleng, Kabupaten Buleleng, Bali 81118

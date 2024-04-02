@@ -19,7 +19,7 @@ export default {
       // => @media (min-width: 1280px) { ... }
     },
     backgroundImage: {
-      hero: "url('./public/assets/bg-header.jpg')"
+      hero: "url('./public/assets/bg-header(1).jpg')"
     },
     colors: {
       transparent: 'transparent',
