@@ -11,7 +11,7 @@ import HeroImage from '@/components/HeroImage.vue'
   <Navbar />
   <header class="relative">
     <HeroImage />
-    <SearchComponent class="absolute top-1/3 left-1/4" />
+    <SearchComponent />
   </header>
   <main>
     <InformasiDataLontar />

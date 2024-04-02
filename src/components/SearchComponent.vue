@@ -12,9 +12,11 @@ export default {
 <template>
   <!-- header -->
 
-  <header class="flex flex-col justify-center items-center">
+  <header
+    class="flex flex-col justify-center items-center absolute xxsm:top-1/3 xxsm:left-10 xsm:top-1/3 xsm:left-12 base:top-1/3 base:left-[15%] sm:top-1/3 sm:left-32 md:top-1/3 md:left-1/4"
+  >
     <h1
-      class="text-white font-medium xxsm:text-bas xsm:text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl mb-3"
+      class="text-white font-medium xxsm:text-sm xsm:text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl xxsm:mb-0"
     >
       Mulai Eksplorasi
       <span class="font-bold text-orangePastel">Pencarian Lontar</span>

@@ -7,7 +7,10 @@
         class="carousel-item w-full"
         @click="handleImageClick(index)"
       >
-        <img :src="getImagePath(image)" class="w-full" />
+        <img
+          :src="getImagePath(image)"
+          class="w-full bg-cover xxsm:h-[220px] xsm:h-[250px] sm:h-[400px] md:h-[450px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px]"
+        />
       </div>
     </div>
     <div class="absolute bottom-0 left-0 right-0 flex justify-end z-10 w-full py-2 gap-2 pr-9 pb-5">
@@ -30,13 +33,12 @@ import bg3 from '../../public/assets/bg-header(3).jpg'
 
 export default {
   setup() {
+    let currentIndex = 0
     const images = [bg1, bg2, bg3]
 
     const getImagePath = (imageName) => {
       return imageName
     }
-
-    let currentIndex = 0
 
     const handleImageClick = (index) => {
       currentIndex = index
